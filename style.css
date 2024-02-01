@@ -1,0 +1,94 @@
+.container1 {
+	padding-top: 15px;
+}
+h2 {
+	padding: 20px;
+	text-align: center;
+}
+.copy {
+	padding-top: 250px;
+}
+
+@font-face {
+	font-family: 'Sarabun';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/sfsites/c/resource/TH_Sarabun) format('woff2');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/sfsites/c/resource/EN_OpenSans) format('woff2');
+}
+
+@font-face {
+	font-family: 'Hiragino Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/sfsites/c/resource/JP_HiraginoSans) format('woff');
+}
+
+.siteforceThemeLayoutStarter {
+	font-size: 2rem;
+}
+
+.js-featured-body .slds-rich-text-editor__output {
+	font-size: 2rem;
+}
+
+.forceCommunityThemeLogo {
+	width: 300px;
+}
+
+.logoImage {
+	width: 700px;
+}
+
+.logoImage {
+	height: 30px;
+}
+
+.bloglogoW {
+	width: 300px;
+}
+
+.partnerLogoImageW {
+	width: 50px;
+}
+.partnerLogoImageH {
+	height: 50px;
+}
+.mitocoLogoImageW {
+	width: 100px;
+}
+.mitocoLogoImageH {
+	height: 20px;
+}
+
+.uiOutputRichText {
+	margin-left: -2%;
+}
+
+.box-logo {
+	margin-left: auto;
+}
+.box-logo2 {
+	margin-right: auto;
+}
+.salesforcePartnerLogoW {
+	width: 50px;
+}
+.salesforcePartnerLogoH {
+	height: 50px;
+}
+.divWidth {
+	width: 170px;
+}
+.divPosition {
+	position: relative;
+}
+.divMLeft {
+	margin-left: auto;
+}
