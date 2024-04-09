@@ -1,95 +1,87 @@
-.container1 {
-	padding-top: 15px;
-}
-h2 {
-	padding: 20px;
-	text-align: center;
-}
-.copy {
-	padding-top: 250px;
+h1 {
+	font-size: 100px;
 }
 
-@font-face {
-	font-family: 'Sarabun';
-	font-style: normal;
-	font-weight: 400;
-	src: url(/sfsites/c/resource/TH_Sarabun) format('woff2');
+.container-main {
+	background: red;
+	display: flex;
+	border: 10px solid black;
+}
+.mitoco_detail {
+	background: pink;
+	border: 10px solid black;
+	padding-left: 1%;
+	margin: 5%;
+	width: 40%;
+	height: 50%;
+}
+.mitoco_img {
+	border: 10px solid black;
+	padding-left: 1%;
+	margin: 5%;
+	width: 60%;
+	height: 40%;
 }
 
-@font-face {
-	font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: url(/sfsites/c/resource/EN_OpenSans) format('woff2');
+.container {
+	display: flex;
 }
 
-@font-face {
-	font-family: 'Hiragino Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: url(/sfsites/c/resource/JP_HiraginoSans) format('woff');
+.left {
+	flex: 1;
+	background-color: red; /* Example background color */
+	width: 50%;
+	height: 10;
+	box-sizing: border-box;
 }
 
-.siteforceThemeLayoutStarter {
-	font-size: 2rem;
+.right {
+	flex: 1;
+	background-color: lightgreen; /* Example background color */
+}
+.sd{
+	flex: none;
+    height: auto;
+    width: 29px;
+    max-width: 100%;
+}
+.sd appear{
+	align-content: flex-start;
+    align-items: flex-start;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    width: auto;
+    max-width: 100%;
+}
+.link sd appear{
+	align-content: center;
+    align-items: center;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 4px;
+    padding: 0px;
+    width: calc(16.666666% - 8px);
+    max-width: calc(16.666666% - 8px);
 }
 
-.js-featured-body .slds-rich-text-editor__output {
-	font-size: 2rem;
+.text sd appear {
+	align-content: center;
+	align-items: center;
+	flex: none;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 4px;
+	padding: 0px;
+	width: calc(16.666666% - 8px);
+	max-width: calc(16.666666% - 8px);
 }
 
-.forceCommunityThemeLogo {
-	width: 300px;
-}
-
-.logoImage {
-	width: 700px;
-}
-
-.logoImage {
-	height: 30px;
-}
-
-.bloglogoW {
-	width: 300px;
-}
-
-.partnerLogoImageW {
-	width: 50px;
-}
-.partnerLogoImageH {
-	height: 50px;
-}
-.mitocoLogoImageW {
-	width: 100px;
-}
-.mitocoLogoImageH {
-	height: 20px;
-}
-
-.uiOutputRichText {
-	margin-left: -2%;
-}
-
-.box-logo {
-	margin-left: auto;
-}
-.box-logo2 {
-	margin-right: auto;
-}
-.salesforcePartnerLogoW {
-	width: 50px;
-}
-.salesforcePartnerLogoH {
-	height: 50px;
-}
-.divWidth {
-	width: 170px;
-}
-.divPosition {
-	position: relative;
-}
-.divMLeft {
-	margin-left: auto;
-	/* border: 3px solid; */
-}
+.
