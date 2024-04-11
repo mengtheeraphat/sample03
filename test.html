@@ -4,137 +4,83 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Responsive Flex Blocks</title>
-		<link rel="stylesheet" href="style.css" />
-		<style>
-			.flex-container {
-				display: flex;
-				flex-wrap: wrap; /* Allow flex items to wrap to next line */
-			}
-
-			.block {
-				flex: 1 1 100%; /* Each block takes up equal space initially, but can shrink and grow */
-				padding: 20px;
-				border: 1px solid #ccc;
-				box-sizing: border-box; /* Include padding and border in element's total width */
-			}
-
-			.block img {
-				max-width: 100%; /* Ensure the image doesn't exceed its container */
-				height: auto; /* Maintain aspect ratio */
-			}
-
-			.block-content {
-				margin-top: 10px;
-				display: flex; /* Display contents in a flex layout */
-				flex-wrap: wrap; /* Allow content to wrap within block */
-				align-items: center; /* Center align items vertically */
-			}
-
-			.icon {
-				margin-right: 20px; /* Add some spacing between icon and details */
-				width: 20%; /* Adjust the width of the icon */
-				height: auto; /* Automatically adjust height while maintaining aspect ratio */
-				display: inline-block; /* Display as inline-block */
-			}
-
-			h1 {
-				display: inline-block; /* Display as inline-block */
-			}
-
-			@media (min-width: 768px) {
-				.block {
-					flex-basis: calc(
-						50% - 40px
-					); /* Each block takes up half the container width minus margins */
-					margin: 10px; /* Add margin between blocks */
-				}
-				.icon {
-					width: 10%; /* Adjust the width of the icon for larger screens */
-				}
-			}
-
-			@media (max-width: 767px) {
-				.icon {
-					width: 30px; /* Adjust the width of the icon for smaller screens */
-					margin-right: 10px; /* Adjust spacing between icon and details */
-				}
-			}
-		</style>
+		<link rel="stylesheet" href="mitoco_style_v1.css" />
 	</head>
 	<body>
-		<div class="sd appear">
-			<ul class="sd appear">
-				<a
-					href="https://www.google.com/"
-					class="link sd appear"
-					target="_blank"
-					><div class="sd appear">
-						<img src="image/travel.png" alt="" />
-					</div>
-					<p>Test</p></a
-				>
-				<a
-					href="https://www.google.com/"
-					class="link sd appear"
-					target="_blank"
-					><div class="sd appear">
-						<img src="image/travel.png" alt="" />
-					</div>
-					<p>Test</p></a
-				>
-				<a
-					href="https://www.google.com/"
-					class="link sd appear"
-					target="_blank"
-					><div class="sd appear">
-						<img src="image/travel.png" alt="" />
-					</div>
-					<p>Test</p></a
-				>
-				<a
-					href="https://www.google.com/"
-					class="link sd appear"
-					target="_blank"
-					><div class="sd appear">
-						<img src="image/travel.png" alt="" />
-					</div>
-					<p>Test</p></a
-				>
-				<a
-					href="https://www.google.com/"
-					class="link sd appear"
-					target="_blank"
-					><div class="sd appear">
-						<img src="image/travel.png" alt="" />
-					</div>
-					<p>Test</p></a
-				>
-			</ul>
+		<div>
+			<img
+				src="image/mitoco_image/mitoco_address_icon.svg"
+				alt="Icon 1"
+			/>
+			<img
+				src="image/mitoco_image/mitoco_address_icon.svg"
+				alt="Icon 2"
+			/>
+			<img
+				src="image/mitoco_image/mitoco_address_icon.svg"
+				alt="Icon 3"
+			/>
+			<img
+				src="image/mitoco_image/mitoco_address_icon.svg"
+				alt="Icon 4"
+			/>
+		</div>
+		<div>
+			<img
+				src="image/mitoco_image/mitoco_address_icon.svg"
+				alt="Icon 5"
+			/>
+			<img
+				src="image/mitoco_image/mitoco_address_icon.svg"
+				alt="Icon 6"
+			/>
+			<img
+				src="image/mitoco_image/mitoco_address_icon.svg"
+				alt="Icon 7"
+			/>
+			<img
+				src="image/mitoco_image/mitoco_address_icon.svg"
+				alt="Icon 8"
+			/>
 		</div>
 		<div class="flex-container">
-			<div class="block">
-				<img src="image/mitoco01.png" alt="Your Image" />
+			<div class="block mitoco_block">
+				<img
+					src="image/mitoco_image/mitoco_bulletin_board.jpg"
+					alt="Your Image"
+					class="mitoco_imgv1"
+				/>
 			</div>
 			<div class="block">
 				<div class="block-content">
-					<img src="image/travel.png" alt="Icon" class="icon" />
-					<h1>Calendar</h1>
+					<img
+						src="image/mitoco_image/mitoco_calendar_icon.svg"
+						alt="Icon"
+						class="icon"
+					/>
+					<div></div>
+					<h1 class="header_fontv1">Calendar</h1>
 					<div>
-						<h2>Check schedules at a glance</h2>
-						<p>
-							Once you have decided who will be participating in
-							the meeting, mitoco will automatically search for
-							everyone's free time.
-						</p>
-						<p>
-							Manage not only employees, but also the availability
-							of meeting rooms and other facilities.
-						</p>
-						<p>
-							Even a meeting with many participants, schedule
-							adjustment function can automatically find available
-							time.
-						</p>
+						<span class="subheadv1"
+							>Check schedules at a glance</span
+						>
+						<ul class="a">
+							<li class="mitoco_detail">
+								Once you have decided who will be participating
+								in the meeting, mitoco will automatically search
+								for everyone's free time.
+							</li>
+							<li class="mitoco_detail">
+								Manage not only employees, but also the
+								availability of meeting rooms and other
+								facilities.
+							</li>
+							<li class="mitoco_detail">
+								Even a meeting with many participants, schedule
+								adjustment function can automatically find
+								available time.
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
