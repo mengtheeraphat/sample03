@@ -1,72 +1,72 @@
 .mitoco_imgv1 {
-	padding-left: 10%;
-	margin: 1% 5% 5% 5%;
-	width: 80%;
-	height: 50%;
+  padding-left: 10%;
+  margin: 1% 5% 5% 5%;
+  width: 80%;
+  height: 50%;
 }
 
 .container {
-	display: flex;
+  display: flex;
 }
 
 .header_fontv1 {
-	font-size: 2.5em !important;
+  font-size: 2.5em !important;
 }
 
 .flex-container {
-	display: flex;
-	flex-wrap: wrap; /* Allow flex items to wrap to next line */
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to next line */
 }
 
 .block {
-	flex: 1 1 100%; /* Each block takes up equal space initially, but can shrink and grow */
-	padding: 20px;
-	/* padding-left: 100px;
+  flex: 1 1 100%; /* Each block takes up equal space initially, but can shrink and grow */
+  padding: 20px;
+  /* padding-left: 100px;
 	padding-right: 100px; */
-	/* border: 1px solid #ccc; */
-	box-sizing: border-box; /* Include padding and border in element's total width */
+  /* border: 1px solid #ccc; */
+  box-sizing: border-box; /* Include padding and border in element's total width */
 }
 
 .block img {
-	max-width: 100%; /* Ensure the image doesn't exceed its container */
-	height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .block-content {
-	margin-top: 10px;
-	display: flex; /* Display contents in a flex layout */
-	flex-wrap: wrap; /* Allow content to wrap within block */
-	align-items: center; /* Center align items vertically */
+  margin-top: 10px;
+  display: flex; /* Display contents in a flex layout */
+  flex-wrap: wrap; /* Allow content to wrap within block */
+  align-items: center; /* Center align items vertically */
 }
 
 .icon {
-	margin-right: 20px; /* Add some spacing between icon and details */
-	width: 10%; /* Adjust the width of the icon */
-	height: auto; /* Automatically adjust height while maintaining aspect ratio */
-	display: inline-block; /* Display as inline-block */
+  margin-right: 20px; /* Add some spacing between icon and details */
+  width: 10%; /* Adjust the width of the icon */
+  height: auto; /* Automatically adjust height while maintaining aspect ratio */
+  display: inline-block; /* Display as inline-block */
 }
 
 h1 {
-	display: inline-block; /* Display as inline-block */
+  display: inline-block; /* Display as inline-block */
 }
 
 @media (min-width: 768px) {
-	.block {
-		flex-basis: calc(
-			50% - 40px
-		); /* Each block takes up half the container width minus margins */
-		margin: 10px; /* Add margin between blocks */
-	}
-	.icon {
-		width: 5%; /* Adjust the width of the icon for larger screens */
-	}
+  .block {
+    flex-basis: calc(
+      50% - 40px
+    ); /* Each block takes up half the container width minus margins */
+    margin: 10px; /* Add margin between blocks */
+  }
+  .icon {
+    width: 5%; /* Adjust the width of the icon for larger screens */
+  }
 }
 
 @media (max-width: 767px) {
-	.icon {
-		width: 30px; /* Adjust the width of the icon for smaller screens */
-		margin-right: 10px; /* Adjust spacing between icon and details */
-	}
+  .icon {
+    width: 30px; /* Adjust the width of the icon for smaller screens */
+    margin-right: 10px; /* Adjust spacing between icon and details */
+  }
 }
 
 /* .circle {
@@ -81,12 +81,20 @@ h1 {
 } */
 
 ul.a {
-	list-style-position: outside;
+  list-style-position: outside;
 }
 .mitoco_detail {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .subheadv1 {
-	font-size: 1.8rem !important;
-	font-weight: bold !important;
+  font-size: 1.8rem !important;
+  font-weight: bold !important;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.icon-container img {
+  margin: 0 10px; /* Adjust as needed */
 }
