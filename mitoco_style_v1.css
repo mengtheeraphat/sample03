@@ -90,3 +90,17 @@ ul.a {
 	font-size: 1.8rem !important;
 	font-weight: bold !important;
 }
+
+.container-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px; /* Adjust the margin as needed */
+	text-align: center; /* To center the images horizontally */
+}
+
+.container-icon img {
+	margin: 0 1%; /* Adjust spacing between images */
+	width: 3.1%;
+	height: 3.1%;
+}
